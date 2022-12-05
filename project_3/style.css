@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    overflow: hidden;
+
+}
+/* disign navigation bar */
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin: 0px 6%;
+}
+.logo{
+    height: 30px;
+}
+nav ul{
+    display: flex;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 10%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbuttom{
+    display: flex;
+    justify-content: center;
+
+}
+.searchimg{
+    height: 30px;
+    width: 30px;
+}
+#searchbar{
+    text-align: center;
+    width: 100px;
+    border-radius: 15px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftpart{
+  width: 40%;
+  margin-left: 6%;
+}
+.firstimg{
+    height: 350px;
+    width: 200x;
+    position: relative;
+    top: 120px;
+}
+.secondimg{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 110px;
+    left: 50px;
+    z-index: -1;
+}
+.theredimg{
+   position: absolute;
+   
+   right: 50%;
+   bottom: 0px;
+}
+/* disign rightpart */
+
+.rightpart{
+   width: 60%; 
+   text-align: center;
+   
+   right: 0px;
+   top: 0px;
+   
+  
+    
+}
+.golob{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    
+    right: 300px;
+    
+    
+}
+.star{
+    position: absolute;
+    right: 10px;
+}
+.rightpart h1{
+    font-size: 70px;
+    margin: 25px
+}
+.rightpart p{
+    margin: 30px;
+}
+.socal{
+    padding: 100px;
+}
+.socal p{
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#email{
+    width: 120px;
+    height: 23px;
+    text-align:center;
+    border-radius: 5px;
+}
+.btn{
+    height: 23px;
+    background-color:  #000000;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

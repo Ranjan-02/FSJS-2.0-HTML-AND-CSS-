@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+}
+/* disign Navigation bar */
+
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    
+}
+nav img{
+    height: 30px;
+    margin-top: 11px;
+    padding-right: 12%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 5%;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+.btn{
+    height:35px;
+    width: 10%;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color:  #7d69ee;
+    color: #ffffff;
+    margin-right: 50px;
+    border: none;
+}
+/* disign Hero Section */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+/* disign leftpart */
+.leftpart{
+    padding-left: 5%;
+    width: 50%;
+    position: relative;
+    padding-bottom: 100px;
+}
+.leftpart h1{
+    font-size: 60px;
+    color: #0b0431;
+    
+}
+.leftpart p{
+    margin: 20px 0px;
+    color: #c1baea;
+}
+.crash{
+    color: #6557b1;
+}
+.class{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+/* disign rightpart */
+.Rightpart img{
+    max-width: 700px;
+    padding-right: 50px;
+}
+
+    
